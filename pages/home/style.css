@@ -1,0 +1,158 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    line-height: 30px;
+    padding-top: 64px;
+    font-size: 12px;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 42px;
+    list-style: none;   
+}
+
+header {
+    margin-bottom: 54px;
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 152px;
+    padding: 17px 0;
+}
+
+section {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+section.bg-pc {
+    width: 1110px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    align-items: flex-end;
+    background-image: url(../../assets/home/image-homepage-hero.jpg);
+}
+
+h1.bg-pc {
+    text-align: left;
+}
+
+.btn-primary {
+    display: flex;
+}
+
+
+section.about-me {
+    width: 1110px;
+    height: 600px;
+}
+
+div.about-me {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 140px;
+}
+
+h2.about-me {
+    margin-bottom: 28px;
+    margin-top: 51px;
+}
+
+div.about-me button {
+    margin: 0 auto;
+}
+
+p.about-me {
+    text-align: left;
+    margin-bottom: 24px;
+    font-size: 16px
+}
+
+.white {
+    color: #ffffff;
+}
+
+section.contact {
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.contact h2 {
+    width: 367px;
+    text-align: left;
+}
+
+div {
+    display: flex;
+}
+
+div.hello {
+    flex-direction: column;
+    width: 445px;
+    max-height: 407px;
+    background-color: #ffffff;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+h1.bg-pc {
+    margin: 56px 28px 53px 28px;
+    color:  #33323D;
+}
+
+footer {
+    padding: 24px 165px;
+    display: flex;
+    justify-content: center;
+    background-color: #203A4C;
+    color: #ffffff;
+    width: 100%;
+}
+
+div.fill div.g1 a {
+    color: #ffffff;
+}
+
+.fill {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+}
+
+div.g1 {
+ flex-grow: 8;
+}
+
+.g1 img {
+    padding-right: 48px;
+}
+
+
+div.g2 {
+    flex-grow: 1;
+    justify-content: space-between;
+   }
+
